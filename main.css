@@ -677,6 +677,12 @@ body.home #catui-content .catui-body .catui-body-block .catui-body-content p {
     }
 }
 
+@media screen and (max-width: 800px) {
+    #catui-content .catui-body {
+        max-width: calc(100% - 20px);
+    }
+}
+
 @media screen and (max-width: 1120px) {
     .catui-container {
         margin: 10px;
