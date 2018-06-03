@@ -1,13 +1,8 @@
 ## 前言
 Waiting for the people who is angel to me.
-谁会走进我的生命，陪我度过这个四季。
 
 ## 展示站点
 欢迎使用本模板后在评论区提供展示链接。
-
-## Github
-欢迎 Star
-https://github.com/nexmoe/catui-reissue
 
 ## 自定义文章头图
 需要先在 后台 → 设置外观 → 喵咪の主人的Cover模式 中启用 `自定义Cover`
