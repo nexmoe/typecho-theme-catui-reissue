@@ -6,6 +6,7 @@
 Waiting for the people who is angel to me.
 
 ## 展示站点
+https://typecho-catui.nexmoe.com/
 欢迎使用本模板后在评论区提供展示链接。
 
 ## 自定义文章头图
