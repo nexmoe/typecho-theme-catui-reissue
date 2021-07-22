@@ -9,6 +9,6 @@ $this->footer();
 <script data-no-instant src="//cdn.bootcss.com/mdui/0.4.0/js/mdui.min.js"></script>
 <?php $this->options->tongji(); ?>
 
-<script data-no-instant src="https://cdn.bootcss.com/instantclick/3.0.1/instantclick.js"></script>
+<script data-no-instant src="//cdn.bootcss.com/instantclick/3.0.1/instantclick.js"></script>
 <script data-no-instant>InstantClick.init();</script>
 <script data-no-instant src="<?php $this->options->themeUrl('main.js'); ?>"></script>

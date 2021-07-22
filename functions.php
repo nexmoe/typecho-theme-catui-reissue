@@ -5,24 +5,18 @@ function themeInit($archive){
     Helper::options()->commentsAntiSpam = false; 
 }
 function themeConfig($form){
-	$logoUrl=new Typecho_Widget_Helper_Form_Element_Text('logoUrl',NULL,"https://avatar.mixcm.cn/qq/776194970",_t ('博客头像'),_t ('在这里填入一个图片URL地址, 以在网站标题前加上一个LOGO<br>可使用QQ头像链接作为LOGO http://avatar.mixcm.cn/qq/（这里填QQ）'));
+	$logoUrl=new Typecho_Widget_Helper_Form_Element_Text('logoUrl',NULL,"https://avatar.mixcm.com/github/nexmoe",_t ('博客头像'),_t ('在这里填入一个图片URL地址, 以在网站标题前加上一个LOGO<br>可使用QQ头像链接作为LOGO http://avatar.mixcm.com/qq/（这里填QQ）'));
 	$form->addInput ($logoUrl);
-	$background=new Typecho_Widget_Helper_Form_Element_Text('background',NULL,NULL,_t ('博客背景'),_t ('在这里填入一个图片URL地址, 给博客添加一个背景图片'));
+	$background=new Typecho_Widget_Helper_Form_Element_Text('background',NULL,NULL,_t ('博客背景'),_t ('默认封面图片'));
 	$form->addInput ($background);
-	$supportzfb=new Typecho_Widget_Helper_Form_Element_Text('supportzfb',NULL,"https://ooo.0o0.ooo/2017/10/14/59e1cb575ec56.png",_t ('支付宝付款二维码'));
-	$form->addInput ($supportzfb);
-	$supportqq=new Typecho_Widget_Helper_Form_Element_Text('supportqq',NULL,NULL,_t ('腾讯QQ付款二维码'));
-	$form->addInput ($supportqq);
-	$supportwx=new Typecho_Widget_Helper_Form_Element_Text('supportwx',NULL,"https://ooo.0o0.ooo/2017/10/14/59e1cb575ec56.png",_t ('微信付款二维码'));
-	$form->addInput ($supportwx);
-	$tongji=new Typecho_Widget_Helper_Form_Element_Textarea('tongji',NULL,'<script data-no-instant src="//mixcm.chainwon.com/assets/js/analytics.js?v=8"></script>',_t ('统计代码'),_t ('为你的网站添加统计代码'));
+	$tongji=new Typecho_Widget_Helper_Form_Element_Textarea('tongji',NULL,'<script data-ad-client="ca-pub-2058306854838448" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>',_t ('统计代码'),_t ('为你的网站添加统计代码'));
 	$form->addInput ($tongji);
 	$Cover=new Typecho_Widget_Helper_Form_Element_Radio('Cover',array ('2'=>_t ('文章标题'),'5'=>_t ('自定义Cover'),'6'=>_t ('自定义Cover+标题')),'1',_t ('Cover模式'),_t ("文章标题：将标题设置为Cover。<br>自定义Cover：若已设置“自定义缩略图”，则将其设置为Cover，当没有图片时，会将背景设置为Cover。<br>自定义Cover+标题：若已设置“自定义缩略图”，则将其设置为Cover，当没有图片时，会将标题设置为Cover。"));
 	$form->addInput ($Cover);
 }
 
 function themeFields($layout) {
-    $Cover = new Typecho_Widget_Helper_Form_Element_Textarea('Cover', NULL, NULL, _t('自定义缩略图'), _t('输入缩略图地址'));
+    $Cover = new Typecho_Widget_Helper_Form_Element_Textarea('Cover', NULL, NULL, _t('自定义封面图'), _t('输入封面图地址'));
     $layout->addItem($Cover);
 }
 

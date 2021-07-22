@@ -1,25 +1,13 @@
 var $$ = mdui.JQ;
-new mdui.Fab('#menu-nav');
-console.log('\n %c  Cat UI V2.2 情托于物。人情冷暖，世态炎凉。 %c @折影轻梦<https://nexmoe.com/seasoncat.html> \n\n', 'color:rgb(255, 242, 242);background:rgb(244, 164, 164);padding:5px 0;border-radius:3px 0 0 3px;', 'color:rgb(244, 164, 164);background:rgb(255, 242, 242);padding:5px 0;border-radius:0 3px 3px 0;');
+
+console.log('\n %c  Cat UI V1.4 情托于物。人情冷暖，世态炎凉。 %c @折影轻梦<https://nexmoe.com/seasoncat.html> \n\n', 'color:rgb(255, 242, 242);background:rgb(244, 164, 164);padding:5px 0;border-radius:3px 0 0 3px;', 'color:rgb(244, 164, 164);background:rgb(255, 242, 242);padding:5px 0;border-radius:0 3px 3px 0;');
 //other start
 hljs.initHighlightingOnLoad();
 InstantClick.on('change', function () {
     mdui.mutation();
-    new mdui.Fab('#menu-nav');
-    ga('send', 'pageview', location.pathname + location.search);
     ajaxc();
 });
 //other end
-var MenuIsOpen = false;
-$(".header-btn").click(function () {
-    if (MenuIsOpen) {
-        document.getElementById("header-menu").className = "header nav-hid";
-        MenuIsOpen = false;
-    } else {
-        document.getElementById("header-menu").className = "header nav-appear";
-        MenuIsOpen = true;
-    }
-});
 Smilies = {
     dom: function (id) {
         return document.getElementById(id);
