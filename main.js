@@ -75,55 +75,6 @@ function getScrollTop() {　　
     return scrollTop;
 }
 
-//文档的总高度
-
-function getScrollHeight() {　　
-    var scrollHeight = 0,
-        bodyScrollHeight = 0,
-        documentScrollHeight = 0;　　
-    if (document.body) {　　　　
-        bodyScrollHeight = document.body.scrollHeight;　　
-    }　　
-    if (document.documentElement) {　　　　
-        documentScrollHeight = document.documentElement.scrollHeight;　　
-    }　　
-    scrollHeight = (bodyScrollHeight - documentScrollHeight > 0) ? bodyScrollHeight : documentScrollHeight;　　
-    return scrollHeight;
-}
-
-//浏览器视口的高度
-
-function getWindowHeight() {　　
-    var windowHeight = 0;　　
-    if (document.compatMode == "CSS1Compat") {　　　　
-        windowHeight = document.documentElement.clientHeight;　　
-    } else {　　　　
-        windowHeight = document.body.clientHeight;　　
-    }　　
-    return windowHeight;
-}
-
-window.onscroll = function () {
-    var ToTopHeight = getWindowHeight() * 1.5;
-    if (getScrollTop() + getWindowHeight() > ToTopHeight) {
-        new mdui.Fab('.mdui-fab-fixed').show();
-    } else {
-        new mdui.Fab('.mdui-fab-fixed').hide();
-    } 
-}
-
-function get_to_top() {
-    setTimeout(function () {
-        new mdui.Fab('.mdui-fab-fixed').hide();
-    }, 300);
-    (function smoothscroll() {
-        var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
-        if (currentScroll > 0) {
-            window.requestAnimationFrame(smoothscroll);
-            window.scrollTo(0, currentScroll - (currentScroll / 5));
-        }
-    })();
-}
 // comments
 
 function ajaxc() {

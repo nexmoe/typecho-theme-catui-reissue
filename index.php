@@ -1,4 +1,11 @@
 <?php 
+    /**
+     * Cat UI 情托于物。人情冷暖，世态炎凉。
+     * @package Cat UI For Angel
+     * @author 折影轻梦 
+     * @version 1.4
+     * @link https://nexmoe.com/ 
+     */ 
     if (!defined('__TYPECHO_ROOT_DIR__')) exit;
     $this->need('head.php'); 
 ?>
