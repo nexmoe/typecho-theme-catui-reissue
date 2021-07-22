@@ -92,7 +92,6 @@ $comments->alt(' comment-odd', ' comment-even');
     	<form class="comment-form"  method="post" action="<?php $this->commentUrl() ?>" id="comment-form" role="form">
             <textarea name="text" id="textarea" placeholder='允许使用的HTML标签：<?php echo $textarea; ?>'><?php $this->remember('text'); ?></textarea>
             <div class="comment-form-tab">
-                <a class="mdui-ripple icon icon-emotsmile" onclick="get_sider_catui_item_fixed('OwO');"></a>
                 <button class="mdui-ripple" type="submit" id="comment-btn"><i class="mdui-icon material-icons">send</i></button>
             </div>
             <?php if($this->user->hasLogin()): ?>

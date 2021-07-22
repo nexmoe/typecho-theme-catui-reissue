@@ -150,6 +150,7 @@
      border-radius: 100%;
      position: relative;
      background-color: #fff;
+     height: 130px;
  }
  
  #catui-content .catui-header .catui-header-avatar h1 {

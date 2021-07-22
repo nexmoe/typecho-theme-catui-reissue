@@ -39,28 +39,6 @@ Smilies = {
     }
 }
 
-function get_sider_catui_item_fixed(id) {
-    var divs = document.getElementById("sider").getElementsByTagName("section");
-    for (var i = 0; i < divs.length; i++) {
-        divs[i].className = "catui-item";
-        document.getElementById("sider-support").className = "catui-item disappear";
-        document.getElementById("sider-OwO").className = "catui-item disappear";
-        document.getElementById("sider-" + id).className = "catui-item sider-fixed";
-    }
-}
-
-function get_sider_catui_item_disappear(id) {
-    if (id == "support" || id == "OwO") {
-        setTimeout(function () {
-            document.getElementById("sider-" + id).className = "catui-item disappear";
-        }, 200);
-    } else {
-        setTimeout(function () {
-            document.getElementById("sider-" + id).className = "catui-item";
-        }, 200);
-    }
-}
-
 function getScrollTop() {　　
     var scrollTop = 0,
         bodyScrollTop = 0,
