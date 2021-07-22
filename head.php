@@ -11,6 +11,6 @@
         <link rel="apple-touch-icon" href="<?php $this->options->logoUrl();?>">
         <link rel="stylesheet" href="//cdn.bootcss.com/mdui/0.4.0/css/mdui.min.css">
         <link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.8.0/styles/monokai-sublime.min.css">
-        <link rel="stylesheet" href="<?php $this->options->themeUrl('main.css?v=210722-3'); ?>">
+        <link rel="stylesheet" href="<?php $this->options->themeUrl('main.css?v=210722-4'); ?>">
         <?php $this->header('generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
     </head>
