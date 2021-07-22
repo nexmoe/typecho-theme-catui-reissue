@@ -106,7 +106,6 @@
  
  #catui-content {
      min-height: 100vh;
-     padding-bottom: 160px;
      background-image: url(bg-bottom.svg);
      background-position: center bottom;
      background-repeat: no-repeat;
@@ -116,7 +115,7 @@
  #catui-content .catui-container {
      -webkit-box-shadow: 0px 3px 20px -3px rgba(0, 64, 128, 0.2);
      box-shadow: 0px 3px 20px -3px rgba(0, 64, 128, 0.2);
-     border-radius: 10px;
+     border-radius: 10px 10px 0 0;
      background: #fff;
      margin-top: 120px;
  }
@@ -185,7 +184,7 @@
  }
  
  #catui-content .catui-body .catui-body-block {
-     margin-bottom: 40px;
+    padding-bottom: 40px;
  }
  
  #catui-content .catui-body .catui-body-block .catui-body-cover {
@@ -309,8 +308,7 @@
  }
  
  #catui-content .catui-footer {
-     height: 65px;
-     margin-top: -20px;
+     
  }
  
  #comments .comment h1 {

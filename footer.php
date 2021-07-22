@@ -1,6 +1,6 @@
 <?php 
-if (!defined('__TYPECHO_ROOT_DIR__')) exit;
-$this->footer(); 
+    if (!defined('__TYPECHO_ROOT_DIR__')) exit;
+    $this->footer(); 
 ?>
 
 <script data-no-instant src="//cdn.bootcss.com/highlight.js/9.9.0/highlight.min.js"></script>
