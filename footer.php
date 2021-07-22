@@ -1,11 +1,3 @@
-<?php
-/*
- * @Author: 折影轻梦 (https://i.chainwon.com/) 
- * @Date: 2017-12-22 22:34:22 
- * @Last Modified by: 折影轻梦 (https://i.chainwon.com/)
- * @Last Modified time: 2017-12-22 23:02:12
- */
-?>
 <?php 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 $this->footer(); 
@@ -19,4 +11,4 @@ $this->footer();
 
 <script data-no-instant src="https://cdn.bootcss.com/instantclick/3.0.1/instantclick.js"></script>
 <script data-no-instant>InstantClick.init();</script>
-<script data-no-instant src="<?php $this->options->themeUrl('js/main.js'); ?>"></script>
+<script data-no-instant src="<?php $this->options->themeUrl('main.js'); ?>"></script>

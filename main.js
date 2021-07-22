@@ -1,12 +1,6 @@
-/*
- * @Author: 折影轻梦 (https://i.chainwon.com/) 
- * @Date: 2017-12-22 22:06:53 
- * @Last Modified by: 折影轻梦 (https://i.chainwon.com/)
- * @Last Modified time: 2017-12-22 23:10:09
- */
 var $$ = mdui.JQ;
 new mdui.Fab('#menu-nav');
-console.log('\n %c  Cat UI V2.2 情托于物。人情冷暖，世态炎凉。 %c @折影轻梦<https://i.chainwon.com/seasoncat.html> \n\n', 'color:rgb(255, 242, 242);background:rgb(244, 164, 164);padding:5px 0;border-radius:3px 0 0 3px;', 'color:rgb(244, 164, 164);background:rgb(255, 242, 242);padding:5px 0;border-radius:0 3px 3px 0;');
+console.log('\n %c  Cat UI V2.2 情托于物。人情冷暖，世态炎凉。 %c @折影轻梦<https://nexmoe.com/seasoncat.html> \n\n', 'color:rgb(255, 242, 242);background:rgb(244, 164, 164);padding:5px 0;border-radius:3px 0 0 3px;', 'color:rgb(244, 164, 164);background:rgb(255, 242, 242);padding:5px 0;border-radius:0 3px 3px 0;');
 //other start
 hljs.initHighlightingOnLoad();
 InstantClick.on('change', function () {

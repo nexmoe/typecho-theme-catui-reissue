@@ -1,11 +1,3 @@
-<?php
-/*
- * @Author: 折影轻梦 (https://i.chainwon.com/) 
- * @Date: 2017-12-22 22:34:22 
- * @Last Modified by: 折影轻梦 (https://i.chainwon.com/)
- * @Last Modified time: 2017-12-22 23:06:32
- */
-?>
 <!DOCTYPE html>
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <html>
