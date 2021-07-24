@@ -9,7 +9,7 @@ function themeConfig($form){
 	$form->addInput ($logoUrl);
 	$background=new Typecho_Widget_Helper_Form_Element_Text('background',NULL,"https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/compress/5c3aec85a4343.jpg",_t ('博客背景'),_t ('默认封面图片'));
 	$form->addInput ($background);
-	$tongji=new Typecho_Widget_Helper_Form_Element_Textarea('tongji',NULL,'<script data-ad-client="ca-pub-2058306854838448" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>',_t ('统计代码'),_t ('为你的网站添加统计代码'));
+	$tongji=new Typecho_Widget_Helper_Form_Element_Textarea('tongji',NULL,'<script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "https://hm.baidu.com/hm.js?41b04999ee3d67f2acc9ce741045e68d";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();</script><script data-ad-client="ca-pub-2058306854838448" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>',_t ('统计代码'),_t ('为你的网站添加统计代码'));
 	$form->addInput ($tongji);
 	$Cover=new Typecho_Widget_Helper_Form_Element_Radio('Cover',array ('1'=>_t ('自定义Cover+标题'),'2'=>_t ('文章标题'),'3'=>_t ('自定义Cover')),'1',_t ('Cover模式'),_t ("文章标题：将标题设置为Cover。<br>自定义Cover：若已设置“自定义缩略图”，则将其设置为Cover，当没有图片时，会将背景设置为Cover。<br>自定义Cover+标题：若已设置“自定义缩略图”，则将其设置为Cover，当没有图片时，会将标题设置为Cover。"));
 	$form->addInput ($Cover);
