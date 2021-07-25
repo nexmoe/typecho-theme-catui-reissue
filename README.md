@@ -5,12 +5,12 @@
 ## 前言
 Waiting for the people who is angel to me.
 
-## 展示站点
-https://typecho.nexmoe.com/
-欢迎使用本模板后在评论区提供展示链接。
+## 安装
+按照常规 Typecho 主题安装即可
 
-## 使用
-按照常规的 Typecho 主题安装后即可立即使用
+1. 解压后重命名主题文件夹（文件夹名称不能带横杠）
+2. 移动到 /usr/themes/ 文件夹中
+3. 到后台启用主题
 
 ## 预览图
 
