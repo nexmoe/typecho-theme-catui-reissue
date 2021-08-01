@@ -45,7 +45,7 @@ $comments->alt(' comment-odd', ' comment-even');
             $sjtx = Typecho_Widget::widget('Widget_Options')->motx;
             $qq = str_replace('@qq.com','',$email);
             if(strstr($email,"qq.com") && is_numeric($qq)){
-              $avatar = '//avatar.mixcm.cn/qq/'.$qq;
+              $avatar = '//avatar.mixcm.com/qq/'.$qq;
             }else{
               $avatar = $host.$url.$hash.'?s='.$size.'&r='.$rating.'&d='.$sjtx;
             }
